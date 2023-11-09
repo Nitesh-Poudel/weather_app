@@ -1,0 +1,78 @@
+.container{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #f5f1f1;
+    
+   
+}
+.card{
+    width:300px;
+    height:500px;
+    background: linear-gradient(120deg, rgb(9, 147, 246), rgb(0, 255, 85));
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.card .search{
+    display: flex;
+    justify-content: center;
+    height:fit-content;
+    margin-top:26px;
+    align-items: center;
+    
+
+}
+.input-search input[type="text"] {
+    width: 220px; /* Make the input take the full width of the container */
+    padding: 8px; /* Add some padding for better appearance */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 15px; /* Add border-radius for rounded corners */
+    box-sizing: border-box; /* Include padding and border in the input's total width */
+  }
+  
+  .input-search input[type="button"] {
+   
+}
+.card .search .button-search button{
+ 
+    border-radius: 80%;
+    margin-left:10px;
+    width:30px;
+    height:30px;
+    overflow:hidden;
+    border:none;
+    cursor: pointer;
+
+}
+
+.card .search .button-search img{
+   width:10px;
+  
+
+
+
+}
+
+
+
+.card .weither{
+    text-align: center;
+    line-height: 15px;
+}
+
+.others{
+    display: flex;
+    justify-content: space-around;
+}
+.col{
+    display:flex;
+}
+.col img{
+    width:20px;
+    height:20px;
+}
+
