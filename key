@@ -1,0 +1,3 @@
+api=d8ba56ac64c90d5bfed4d71649df8d90
+link=https://api.openweathermap.org/data/2.5/weather?q=kathmandu&appid=d8ba56ac64c90d5bfed4d71649df8d90&units=metric
+            hereq=city,appid=api,units-unit
